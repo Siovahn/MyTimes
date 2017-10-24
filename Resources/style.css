@@ -1,3 +1,7 @@
+html {
+  display: block;
+}
+
 body {
   display: block;
 }
@@ -18,12 +22,14 @@ header {
 
 header nav {
   display: flex;
+  padding-right: 40px;
 
 }
 
 nav span {
   display: inline-block;
   padding 20px 10px;
+  justify-content: center;
 
 }
 
@@ -35,6 +41,6 @@ nav span {
 
 }
 
-.logo span {
+.logo {
   color: MediumAquamarine;
 }
